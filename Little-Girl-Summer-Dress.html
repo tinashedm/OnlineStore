@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="description" content="This is the description">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script type="module" src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule="" src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons/ionicons.js"></script>
+    <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
+    <script type="module" src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule="" src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons/ionicons.js"></script>
+    <link rel="stylesheet" href="./css/styledraft.css" />
+
+    <title>The Online Family Apparel Store | Catalogue</title>
+</head>
+
+<body>
+    <header class="main-header" id="top">
+        <nav class="navbar navbar-dark bg-dark">
+            <a class="navbar-brand" href="index.html">Home</a>
+            <a class="navbar-brand" href="about-us.html">About Us</a>
+            <a class="navbar-brand" href="draftCatalogue.html">Catalogues</a>
+            <a class="navbar-brand" href="contact-us.html">Contact Us</a>
+            <a class="cart" href="cart.html">
+                <ion-icon name="basket"></ion-icon> <span>0</span>
+            </a>
+            
+            <form class="form-inline">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search..." aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+        </nav>   
+    </header>
+    <section class="productPageContainer content-section">
+        <div class="myProduct">
+            <figure>
+                <img src="images/Little_Girl_Summer_Dress.jpg" alt="Little_Girl_Summer_Dress.jpg">
+            </figure>
+            <section class="productSection">
+                <h3>Little Girl Summer Dress</h3> 
+                <p>Price: R<span>50,00</span></p>
+                <details>
+                    <summary>Product Details</summary>
+                    <ul>
+                        <li>Gold stitching</li>
+                        <li>Princess Tutu design</li>
+                        <li>Pink glitters</li>
+                    </ul>
+                </details>
+                <button class="addProdToCart" type="button" onclick="addProdToCart(1)">Add To Cart</button>              
+            </section>
+        </div>
+    </section>
+
+    <div class="main-footer-container">
+        <footer class="main-footer">
+            <small class="nav footer-nav">
+                Copyright &copy; 2021, The Online Family Apparel Store.&nbsp;&nbsp; All Rights
+                Reserved.&nbsp;&nbsp;
+            </small>
+        </footer>
+    </div>
+
+    
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="./js/main.js"></script>
+</body>
+
+</html>

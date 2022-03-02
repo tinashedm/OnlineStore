@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script type="module" src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule="" src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons/ionicons.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/styledraft.css">
+    <title>Shopping Cart</title>
+</head>
+<body>
+    <header class="main-header" id="top">
+        <nav class="navbar navbar-dark bg-dark">
+            <a class="navbar-brand" href="index.html">Home</a>
+            <a class="navbar-brand" href="#">About Us</a>
+            <a class="navbar-brand" href="draftCatalogue.html">Catalogues</a>
+            <a class="navbar-brand" href="contact-us.html">Contact Us</a>
+            <a class="cart active" href="#">
+                <ion-icon name="basket"></ion-icon> <span>0</span>    
+            </a>
+            
+            <form class="form-inline">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search..." aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+        </nav>    
+    </header>
+
+    <!-- This table displays the discount banners to inform user of the discount codes -->
+    <table class="table-light " style="width: 100%;" id="tblDiscounts">
+        <thead>
+            <tr>
+                <td class="text-center bg-white " style="font-size: 21px; 
+                font-weight: bold;">SPEND R150 GET 10% OFF <p style="color: royalblue;">COUPON CODE: disc10</p>
+                </td>
+                <td class="text-center bg-white " style="font-size: 21px; 
+                font-weight: bold;">SPEND R200 GET 15% OFF <p style="color: orangered;">COUPON CODE: disc15</p>
+                </td>
+            </tr>
+        </thead>
+    </table>
+
+    <div class="container-products">
+        <div class="product-header">
+            <h5 class="product-title">PRODUCT</h5>
+            <h5 class="price sm-hide">PRICE</h5>
+            <h5 class="quantity">QUANTITY</h5>
+            <h5 class="total">TOTAL (R)</h5>
+        </div>
+
+        <!-- Products will be added and displayed on the .products div below -->
+        <div class="products">
+
+        </div>
+    </div>
+    <hr>
+    <div class=" main-footer-container">
+        <footer class="main-footer">
+            <small class="nav footer-nav">
+                Copyright &copy; 2021, The Online Family Apparel Store.&nbsp;&nbsp; All Rights
+                Reserved.&nbsp;&nbsp;
+            </small>
+        </footer>
+    </div>
+    <script src="./js/main.js"></script>
+    
+
+</body>
+</html>

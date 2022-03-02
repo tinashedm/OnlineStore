@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script type="module" src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule="" src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons/ionicons.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/styledraft.css">
+    <title>The Online Family Apparel Store | Catalogue</title>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-10 col-12">
+                <h1>The Online Family Apparel Store</h1>
+            </div>
+            <div class="col-md-2 col-12 my-auto">
+                <a href="login-sign-up.html" class="btn btn-outline-success" role="button">Log In / Register</a>
+            </div>
+        </div>
+    </div>
+
+    <header class="main-header" id="top">
+        <nav class="navbar navbar-dark bg-dark">
+            <a class="navbar-brand" href="index.html">Home</a>
+            <a class="navbar-brand" href="about-us.html">About Us</a>
+            <a class="navbar-brand active" href="#">Catalogues</a>
+            <a class="navbar-brand" href="contact-us.html">Contact Us</a>
+            <a class="cart" href="cart.html">
+                <ion-icon name="basket"></ion-icon> <span>0</span>
+            </a>
+            
+            <form class="form-inline">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search..." aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+        </nav>   
+    </header>
+
+    <!-- The images on this page are clickable and they link to their respective product's page -->
+
+    <h4 id="kids" style="text-align: center;">KIDS</h4>
+    <div class="container">
+        <div class="itemsBox">
+            <div class="item" id="2packVests">
+                <a class="imgLink" href="./2pack_body_vests.html">
+                    <img src="images/2pack_Body_Vests.JPG" alt="2pack_Body_Vests.JPG">
+                </a>
+                <!-- Clicking on the PROMO banner will redirect user to the cart.html page where they are 
+                    given information on how to access the discounts -->
+                <div class="promo-top-left" id="2packVestsPromo">
+                    <a href="./cart.html#tblDiscounts">PROMO</a>
+                </div>
+                
+                <div class="itemInfo">
+                    <h3>2-pack Body Vests</h3>
+                    <p>R65,00</p>
+                    <a class="addToCart" href="#">Add To Cart</a>
+                    <input type="hidden" value="65" />
+                </div>
+            </div>
+            <div class="item">
+                <a class="imgLink" href="./Little-Girl-Summer-Dress.html">
+                    <img src="images/Little_Girl_Summer_Dress.jpg" alt="images/Little_Girl_Summer_Dress.jpg">
+                </a>
+                <div class="itemInfo">
+                    <h3>Little Girl Summer Dress</h3>
+                    <p>R50,00</p>
+                    <a class="addToCart" href="#">Add To Cart</a>
+                    <input type="hidden" value="50" />
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <h4 id="ladies" style="text-align: center;">LADIES</h4>
+    <div class="container">
+        <div class="itemsBox">
+            <div class="item">
+                <a class="imgLink" href="./Floral_dress.html">
+                    <img src="images/Floral_Dress.jpg" alt="Floral_Dress.jpg">
+                </a>
+                <div class="itemInfo">
+                    <h3>Ladies Floral Dress</h3>
+                    <p>R60,00</p>
+                    <a class="addToCart" href="#">Add To Cart</a>
+                    <input type="hidden" value="60" />
+                </div>
+            </div>
+            <div class="item" id="embroideryTop">
+                <a class="imgLink" href="./embroidered-womens-tops.html">
+                    <img src="images/Embroidered_Womens_Tops.jpg" alt="Embroidered_Womens_Tops.jpg">
+                </a>
+                <div class="promo-top-left" id="embroideryTopPromo">
+                    <a href="./cart.html#tblDiscounts">PROMO</a>
+                </div>
+                
+                <div class="itemInfo">
+                    <h3>Embroidered Womens Tops</h3>
+                    <p>R45,00</p>
+                    <a class="addToCart" href="#">Add To Cart</a>
+                    <input type="hidden" value="45" />
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <a href="#top" id="backToCart">Back to top</a>
+    <div class=" main-footer-container">
+        <footer class="main-footer">
+            <small class="nav footer-nav">
+                Copyright &copy; 2021, The Online Family Apparel Store.&nbsp;&nbsp; All Rights
+                Reserved.&nbsp;&nbsp;
+            </small>
+        </footer>
+    </div>
+    <script src="./js/main.js"></script>
+    
+
+</body>
+</html>

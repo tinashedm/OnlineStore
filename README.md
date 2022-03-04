@@ -26,11 +26,11 @@ To save the project locally *(Windows)*:
 * Navigate to the directory where you saved the project.
 * Double-click *index.html* file.
 * Click the __Catalogues__ tab.
-* Click on the image of the product you want to view. 
-  ![Product Image](images/productImage.JPG)
+* Click on the image of the product you want to view.   
+![Product Image](images/productImage.JPG)
 * On the product page, click __Add To Cart__ button.
-    * An alert box will pop up showing cart total, press __OK__. 
-      ![Alert Box](images/alertBox.JPG)
+* An alert box will pop up showing cart total, press __OK__.   
+![Alert Box](images/alertBox.JPG)
 * Click on the __Cart Basket__ to navigate to the shopping cart.
     ![Cart Basket](images/cartButton.JPG)
 * Enter a valid __Coupon code__ for your purchase *(instructions on top of page)*

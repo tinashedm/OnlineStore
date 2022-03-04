@@ -17,7 +17,7 @@ To save the project locally *(Windows)*:
 1. Open __CMD__.
 2. Change the current working directory to the location where you want to save the project.
 3. Type the below command
-    * $ git clone URL
+    * $ git clone https://github.com/tinashedm/myStore.git
 4. Press __Enter__ to create your local clone.
 5. Exit __CMD__
 
